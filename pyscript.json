@@ -1,0 +1,8 @@
+{
+    "packages": ["arrr"],
+    "fetch": [
+        {
+            "files": ["./SakanactionVectorCSV.csv"]
+        }
+    ]
+}
