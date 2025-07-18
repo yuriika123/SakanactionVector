@@ -88,11 +88,7 @@ def button(event):
     for row in sorted_info[1:]:
         li = document.createElement("li")
         
-        # <li> タグの中に入れるテキストを設定する
-        # row[0] には曲名が入っているね
-        # f-string を使うと、アルバム名とかも一緒に入れられて便利だよ
         li.innerText = f"{row[0]}（{round(row[4], 2)}）"
         # li.innerText = f"{row[0]}"
         
-        # 出来上がった <li> を <ol> の中に追加する
         results_list.append(li)
